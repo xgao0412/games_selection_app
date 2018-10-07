@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Games App review</title>
+</head>
+<body>
+	<table border=1>
+		{% for key, value in result.items() %}
+		<tr>
+			<th>
+				<th> {{ key }}</th>
+				<td> {{ value }}</td>
+			</th>		
+		</tr>
+		{% endfor %}
+	</table>
+</body>
+</html>
